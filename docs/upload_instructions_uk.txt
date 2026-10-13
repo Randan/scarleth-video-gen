@@ -1,0 +1,106 @@
+SCARLETH — АНІМОВАНІ ОБКЛАДИНКИ ДЛЯ SPOTIFY ТА APPLE MUSIC
+==========================================================
+
+ЧОМУ ВІДЕО 12, А АЛЬБОМІВ 4
+---------------------------
+На кожен альбом по три відео, бо Spotify і Apple Music мають різні вимоги,
+а Apple ще й показує анімовану обкладинку на різних пристроях у різних форматах.
+
+  4 альбоми × (1 відео для Spotify + 2 відео для Apple Music) = 12 відео
+
+Spotify — 1 відео на альбом (папка "Spotify")
+  • Spotify Canvas: вертикальне відео 9:16 (1080×1920), 8 секунд, у циклі, без звуку.
+  • Показується на екрані "Зараз грає" замість обкладинки.
+  • Без написів, бо назву та виконавця Spotify показує сам.
+
+Apple Music — 2 відео на альбом (папка "Apple Music")
+  • 3:4 (2048×2732) — для iPhone. Знизу кадр затемнений, бо там Apple
+    показує назву альбому й кнопки Play / Shuffle.
+  • 1:1 (3840×3840) — для iPad, Mac і телевізорів. Це квадратна анімована обкладинка.
+  • Apple приймає тільки пару файлів 1:1 + 3:4 однакової довжини
+    (тут обидва по 15 секунд, без звуку, H.264, 90 Мбіт/с).
+  • Перший кадр кожного відео збігається зі статичною обкладинкою — це вимога Apple.
+
+
+ЯКІ ФАЙЛИ ДО ЯКОГО АЛЬБОМУ
+--------------------------
+Коли прийде день
+  Spotify:      Spotify/Scarleth_Koly_Pryide_Den_Spotify_Canvas_9x16.mp4
+  Apple 3:4:    Apple Music/Scarleth_Koly_Pryide_Den_AMB_3x4.mp4
+  Apple 1:1:    Apple Music/Scarleth_Koly_Pryide_Den_AMB_1x1.mp4
+
+Break the Silence
+  Spotify:      Spotify/Scarleth_Break_The_Silence_Spotify_Canvas_9x16.mp4
+  Apple 3:4:    Apple Music/Scarleth_Break_The_Silence_AMB_3x4.mp4
+  Apple 1:1:    Apple Music/Scarleth_Break_The_Silence_AMB_1x1.mp4
+
+The Silver Lining
+  Spotify:      Spotify/Scarleth_The_Silver_Lining_Spotify_Canvas_9x16.mp4
+  Apple 3:4:    Apple Music/Scarleth_The_Silver_Lining_AMB_3x4.mp4
+  Apple 1:1:    Apple Music/Scarleth_The_Silver_Lining_AMB_1x1.mp4
+
+Vortex
+  Spotify:      Spotify/Scarleth_Vortex_Spotify_Canvas_9x16.mp4
+  Apple 3:4:    Apple Music/Scarleth_Vortex_AMB_3x4.mp4
+  Apple 1:1:    Apple Music/Scarleth_Vortex_AMB_1x1.mp4
+
+
+ЯК ДОДАТИ В SPOTIFY (Canvas)
+----------------------------
+Хто може додати: перший основний виконавець треку, або учасник команди
+в Spotify for Artists з роллю Admin чи Editor.
+
+Важливо: Canvas у Spotify додається НА КОЖЕН ТРЕК окремо, а не на альбом.
+Тобто відео альбому треба завантажити на кожен трек цього альбому
+(або лише на ті треки, які хочете).
+
+На компʼютері:
+  1. Зайти на artists.spotify.com.
+  2. Вкладка Music.
+  3. Вибрати трек.
+  4. Натиснути "Add Canvas", завантажити відео з папки "Spotify".
+  5. Повторити для інших треків альбому.
+
+У мобільному застосунку Spotify for Artists:
+  1. Вкладка Music.
+  2. Вибрати трек.
+  3. Натиснути іконку редагування біля "Canvas" і завантажити відео.
+
+Canvas можна додати і до вже випущених треків, і до майбутнього релізу,
+якщо Spotify його вже отримав.
+
+Якщо Canvas не видно в застосунку:
+  • Canvas показується лише в мобільному застосунку на екрані "Зараз грає".
+  • У слухача Canvas має бути увімкнений: Налаштування → Контент і відображення → Canvas
+    (на компʼютері: Налаштування → Відображення).
+  • У режимі економії трафіку (Data Saver) Canvas не показується.
+
+
+ЯК ДОДАТИ В APPLE MUSIC (Album Motion)
+--------------------------------------
+Самостійно, через Apple Music for Artists, анімовану обкладинку альбому
+завантажити НЕ МОЖНА. Її доставляє в Apple дистрибʼютор, разом з релізом.
+
+  1. Уточнити в дистрибʼютора, чи він доставляє Apple Music Album Motion
+     (motion artwork). Не всі це підтримують. Список дистрибʼюторів, які
+     підтримують, Apple веде як "Preferred Providers" (motion artwork).
+  2. Уточнити, для яких релізів це доступно: частина дистрибʼюторів
+     приймає лише альбоми та EP, без синглів.
+  3. Передати дистрибʼютору ОБИДВА файли альбому (3:4 і 1:1) з папки "Apple Music".
+     Дистрибʼютор може додати анімацію і до вже випущеного альбому.
+  4. Після доставки Apple може переглянути файли й відхилити, якщо щось не
+     відповідає вимогам. Вимоги виконано: розміри, довжина, бітрейт,
+     відсутність звуку, перший кадр = обкладинка, безшовний цикл.
+
+!!! ВАЖЛИВО: після доставки в Apple Music анімацію НЕ МОЖНА видалити чи замінити
+окремо — лише повне зняття релізу і повторне завантаження з новим UPC.
+Перед відправкою ще раз переглянути всі файли.
+
+
+ДЖЕРЕЛА
+-------
+Spotify — як додати Canvas:      https://support.spotify.com/us/artists/article/adding-a-canvas/
+Spotify — вимоги до Canvas:      https://support.spotify.com/us/artists/article/canvas-guidelines/
+Apple — вимоги Album Motion:     https://help.apple.com/itc/albummotionguide/en.lproj/static.html
+Apple — для артистів:            https://artists.apple.com/support/5544-create-motion-artwork
+Apple — доставка (для партнерів): https://itunespartner.apple.com/music/support/5499-create-deliver-motion-artwork

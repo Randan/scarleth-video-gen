@@ -1,0 +1,7 @@
+.env
+node_modules/
+.venv/
+__pycache__/
+.DS_Store
+# Generated media: sources, masters, renders, QA frames. Large (GBs) and reproducible from the scripts.
+work/
