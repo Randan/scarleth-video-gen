@@ -278,3 +278,9 @@ dark + red pixels connected to the centre line) that only expands outward (0–9
 The sides are never warped, only covered a little more and uncovered again. The glow pulse is kept.
 
 **Stage v10 (2026-10-13): KPD.** Wing beats slowed to 12 per loop. The rift alpha now comes from a Gemini segmentation (`prompts/p_mask_kpd_rift.txt` paints the crack magenta → `work/kpd/rift_magenta.png`), eroded 2 px, with the centre line = the outline's per-row middle (`work/kpd/rift_center_1080.npy`). The hand colour mask had caught dark ground left of the crack and dragged it along. Checked: the ground beside the rift does not change across the loop.
+
+**Cleanup (2026-10-13):** `work/` now holds only what re-rendering needs: the covers, the 4K stills, the masters
+(9:16 and 16:9) with their registrations, lettering and logo layers, the approved Wan takes (kpd `motion_s22` and
+`stage_motion_s31`, bts `motion_v1` and `stage_motion_s29`, slv `motion_v1` and `stage_motion`), the Gemini plates and
+masks in use, and `work/logos/`. Rejected takes, QA frames and all rendered outputs were removed. Re-render with
+`scripts/render_all.sh` (canvases), `scripts/stage.py` and `scripts/vtx_float.py ... stage` (stage).
